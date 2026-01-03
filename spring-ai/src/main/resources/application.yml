@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: springAi
+  ai:
+    openai:
+      base-url: https://aihubmix.com
+      api-key: your-api-key
+  datasource:
+    url: jdbc:mysql://localhost:3306/job?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: root
+    password: jx152523
+    driver-class-name: com.mysql.jdbc.Driver
+  mail:
+    host:
+    username:
+    password:
+    #   password: Y
+    default-encoding: UTF-8
+    protocol: smtp
+    port: 587
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: true
+mybatis-plus:
+  type-aliases-package: com.example.springai.model
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+server:
+  port: 9090
+logging:
+  level:
+    com.baomidou.mybatisplus: debug
