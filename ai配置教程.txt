@@ -1,0 +1,5 @@
+1、打开https://aihubmix.com/，注册账号
+2、充值额度
+3、点击密钥，进入密钥页面
+4、创建密钥并复制API_KEY
+5、到application.yml配置文件中，找到spring.ai.openai.api-key，将复制的API_KEY粘贴进去
