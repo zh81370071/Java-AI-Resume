@@ -31,8 +31,8 @@ public class SpringAiApplication {
 		System.out.println("  |                                                          |");
 		System.out.println("  |    应用启动成功！                                       |");
 		System.out.println("  |                                                          |");
-		System.out.println("  |    半夜撕代码 版权所有 © 2025                           |");
-		System.out.println("  |    联系方式: 1796145608@qq.com                   |");
+		System.out.println("  |    周辉 版权所有 © 2025                           |");
+		System.out.println("  |    联系方式: 81370071@qq.com                   |");
 		System.out.println("  |                       |");
 		System.out.println("  |                                                          |");
 		System.out.println("  ============================================================");
